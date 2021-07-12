@@ -21,7 +21,4 @@ jobs:
           pip install email-validator
 
       - name: Test webpages
-        run: python tests/test_basic.py
-
-      - name: Test users
-        run: python tests/test_users.py
+        run: python -m unittest discover tests
