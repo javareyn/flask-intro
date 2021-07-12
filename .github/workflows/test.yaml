@@ -20,5 +20,5 @@ jobs:
           pip install flask-sqlalchemy
           pip install email-validator
 
-      - name: Test webpages
+      - name: Test all tests
         run: python -m unittest discover tests
