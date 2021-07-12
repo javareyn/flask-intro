@@ -1,7 +1,7 @@
 import sys
 import unittest
 
-sys.path.append('..')  # imports python file from parent directory
+sys.path.append('../seo-flask-intro')  # imports python file from parent directory
 from app import app  # imports flask app object
 
 

@@ -1,7 +1,7 @@
 import sys
 import unittest
 
-sys.path.append('..')
+sys.path.append('../seo-flask-intro')
 from app import app, db
 
 
